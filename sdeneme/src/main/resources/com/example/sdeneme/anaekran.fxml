@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdeneme.main_Screen">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="185.0" style="-fx-background-color: linear-gradient(to  right, #00994C, #E0E0E0);">
+         <children>
+            <Label fx:id="merhabaLabel" layoutX="16.0" layoutY="14.0" prefHeight="94.0" prefWidth="154.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="deneybutonu" layoutX="40.0" layoutY="241.0" mnemonicParsing="false" onMouseClicked="#deneYap" prefHeight="32.0" prefWidth="100.0" text="Deney Yap">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="kimyasalbuton" layoutX="40.0" layoutY="185.0" mnemonicParsing="false" onMouseClicked="#kimyasalList" prefHeight="32.0" prefWidth="100.0" text="Kimyasallar">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="cikisbutonu" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onMouseClicked="#giriseDon" prefHeight="31.0" prefWidth="71.0" text="Çıkış">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="ekipmanliste" layoutX="40.0" layoutY="130.0" mnemonicParsing="false" onMouseClicked="#ekipmanList" prefHeight="32.0" prefWidth="100.0" text="Ekipmanlar">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ListView fx:id="liste1" layoutX="187.0" prefHeight="400.0" prefWidth="207.0" style="-fx-background-color: A0A0A0;" />
+      <ListView fx:id="liste2" layoutX="394.0" prefHeight="400.0" prefWidth="207.0" style="-fx-background-color: FF99CC;" />
+   </children>
+</AnchorPane>

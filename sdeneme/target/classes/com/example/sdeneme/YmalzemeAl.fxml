@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="648.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdeneme.Ymain_sceen">
+    <children>
+        <AnchorPane prefHeight="434.0" prefWidth="187.0" style="-fx-background-color: linear-gradient(to  right, #00994C, #E0E0E0);">
+            <children>
+                <Label fx:id="merhabaMesaj" layoutX="40.0" layoutY="50.0" prefHeight="35.0" prefWidth="101.0">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Button fx:id="deneybutonu" layoutX="40.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#deneYap" prefHeight="32.0" prefWidth="100.0" text="Deney Yap">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="kimyasalbuton" layoutX="40.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#kimyasalList" prefHeight="32.0" prefWidth="100.0" text="Kimyasallar">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="cikisbutonu" layoutX="10.0" layoutY="389.0" mnemonicParsing="false" onMouseClicked="#giriseDon" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: linear-gradient(to  right, #00994C, #70BD96);" text="Çıkış">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="ekipmanliste" layoutX="40.0" layoutY="125.0" mnemonicParsing="false" onMouseClicked="#ekipmanList" prefHeight="32.0" prefWidth="100.0" text="Ekipmanlar">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            <Button fx:id="siparisVer" layoutX="40.0" layoutY="290.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="100.0" text="Sipariş Ver">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <ListView layoutX="187.0" prefHeight="434.0" prefWidth="233.0" style="-fx-background-color: A0A0A0;" />
+        <ListView layoutX="420.0" prefHeight="434.0" prefWidth="233.0" style="-fx-background-color: FF99CC;" />
+    </children>
+</AnchorPane>
